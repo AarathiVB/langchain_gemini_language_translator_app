@@ -141,36 +141,6 @@ This will open the **language translator** in your **web browser**.
 
 ---
 
-## **Troubleshooting**
-### **1. ModuleNotFoundError: No module named 'langchain_google_genai'**
-**Solution:** Install missing dependencies:
-```bash
-pip install langchain-google-genai
-```
-
-### **2. API Key Error or Authentication Issues**
-**Solution:**
-- Ensure your `.env` file contains:
-  ```
-  GOOGLE_API_KEY=your_api_key_here
-  ```
-- Make sure your **Google API Key is valid** and **enabled** for Gemini.
-
-### **3. Streamlit App Not Launching**
-**Solution:** Run inside the correct environment:
-```bash
-streamlit run gemini_applanguage_translator.py
-```
-
----
-
-## **Future Enhancements**
-- Support for **multiple output languages**.
-- Implement **memory** to retain previous translations.
-- Add **speech-to-text** input for spoken translations.
-
----
-
 ## **References**
 - [LangChain Documentation](https://python.langchain.com/)
 - [Google Gemini API](https://ai.google.dev/)
