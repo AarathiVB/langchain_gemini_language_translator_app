@@ -31,7 +31,7 @@ prompt = ChatPromptTemplate.from_messages(
 
 
 st.title('Langchain Language Translator with Gemini')
-input_text=st.text_input("Write the sentence in english and it will be translated in german")
+input_text=st.text_input("Write the sentence in English and it will be translated in German")
 
 
 
