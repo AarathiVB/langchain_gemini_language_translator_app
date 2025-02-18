@@ -1,7 +1,7 @@
-# **LangChain Language Translator with Gemini**
+# **Gemini Language Translator**
 
 ## **Project Overview**
-This project is a **language translation application** built using **LangChain**, **Google Gemini-1.5-Pro**, and **Streamlit**. The application translates input text from **English to German** using **LangChain's prompt chaining** and **Google's Gemini LLM**.
+This project is a **language translation application** built using **Google Gemini-1.5-Pro**, **LangChain**, and **Streamlit**. The application translates input text from **English to German** using **LangChain's prompt chaining** and **Google's Gemini LLM**.
 
 ---
 
